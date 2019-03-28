@@ -13,9 +13,10 @@ public final class Controler implements Runnable {
 
   @Override
   public void run() {
+    if (data == null) return;
+
     Viewer.println(data);
     int option;
-
     while (true) {
       Viewer.choice();
 
@@ -26,7 +27,10 @@ public final class Controler implements Runnable {
         continue;
       }
 
-      if (option == 3) break;
+      if (option == 3) {
+        Datasource.save();
+        break;
+      }
 
       try {
         Validator.validateOption(option);

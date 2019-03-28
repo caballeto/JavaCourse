@@ -34,6 +34,16 @@ public final class Book {
       + String.format(FORMAT_6, price + "");
   }
 
+  public String asCsv() {
+    return id + ","
+      + title + ","
+      + author + ","
+      + publisher + ","
+      + year + ","
+      + pages + ","
+      + price;
+  }
+
   public int getId() {
     return id;
   }

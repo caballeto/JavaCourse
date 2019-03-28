@@ -1,6 +1,6 @@
 package com.kpi.lab1;
 
-public class Validator {
+public final class Validator {
   private static final int N = 4;
 
   public static void validateOption(int option) {

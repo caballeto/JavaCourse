@@ -32,6 +32,14 @@ public final class Viewer {
     System.out.println("Illegal number format. Please try again.");
   }
 
+  static void noFileFormat() {
+    System.out.println("Incorrect file formatting. Please see reference data file for correct format.");
+  }
+
+  static void noFile() {
+    System.out.println("Data file wasn't found.");
+  }
+
   static void noOption() {
     System.out.println("No such option available. Please try again.");
   }
