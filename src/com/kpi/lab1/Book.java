@@ -4,7 +4,7 @@ import static com.kpi.lab1.Viewer.FORMAT_2;
 import static com.kpi.lab1.Viewer.FORMAT_6;
 import static com.kpi.lab1.Viewer.FORMAT_20;
 
-public class Book {
+public final class Book {
   private final int id;
   private final String title;
   private final String author;

@@ -1,57 +1,93 @@
 package com.kpi.lab1;
 
-public class Controler {
-  public static Book[] getByAuthor(Book[] books, String author) {
-    int count = 0;
-    for (Book book : books) {
-      if (book.getAuthor().equals(author)) {
-        count++;
-      }
-    }
-    int end = count;
-    Book[] selected = new Book[count];
-    for (Book book : books) {
-      if (book.getAuthor().equals(author)) {
-        selected[end - count--] = book;
-      }
-    }
+import java.util.Scanner;
 
-    return selected;
+public final class Controler implements Runnable {
+  private Scanner scanner;
+  private Book[] data;
+
+  public Controler() {
+    this.scanner = new Scanner(System.in);
+    this.data = Datasource.data();
   }
 
-  public static Book[] getByPublisher(Book[] books, String publisher) {
-    int count = 0;
-    for (Book book : books) {
-      if (book.getPublisher().equals(publisher)) {
-        count++;
-      }
-    }
-    int end = count;
-    Book[] selected = new Book[count];
-    for (Book book : books) {
-      if (book.getPublisher().equals(publisher)) {
-        selected[end - count--] = book;
-      }
-    }
+  @Override
+  public void run() {
+    Viewer.println(data);
+    int option;
 
-    return selected;
+    while (true) {
+      Viewer.choice();
+
+      try {
+        option = Integer.parseInt(readLine());
+      } catch (NumberFormatException e) {
+        Viewer.noFormat();
+        continue;
+      }
+
+      if (option == 3) break;
+
+      try {
+        Validator.validateOption(option);
+        execute(option);
+      } catch (OptionOutOfRange e) {
+        Viewer.noOption();
+      }
+    }
   }
 
-  public static Book[] getByYearLessThan(Book[] books, int year) {
-    int count = 0;
-    for (Book book : books) {
-      if (book.getYear() > year) {
-        count++;
-      }
-    }
-    int end = count;
-    Book[] selected = new Book[count];
-    for (Book book : books) {
-      if (book.getYear() > year) {
-        selected[end - count--] = book;
-      }
-    }
+  private void execute(int query) {
+    switch (query) {
+      case 0: {
+        Viewer.insert("author");
+        Book[] books = Model.getByAuthor(data, readLine());
+        if (books.length == 0) {
+          Viewer.noAuthor();
+        } else {
+          Viewer.println(books);
+          System.out.println();
+        }
 
-    return selected;
+        break;
+      }
+      case 1: {
+        Viewer.insert("publisher");
+        Book[] books = Model.getByPublisher(data, readLine());
+        if (books.length == 0) {
+          Viewer.noPublisher();
+        } else {
+          Viewer.println(books);
+          System.out.println();
+        }
+
+        break;
+      }
+      case 2: {
+        Viewer.insert("year");
+        int year;
+
+        try {
+          year = Integer.parseInt(readLine());
+        } catch (NumberFormatException e) {
+          Viewer.noFormat();
+          return;
+        }
+
+        Book[] books = Model.getByYearMoreThan(data, year);
+        if (books.length == 0) {
+          Viewer.noYear();
+        } else {
+          Viewer.println(books);
+          System.out.println();
+        }
+
+        break;
+      }
+    }
+  }
+
+  private String readLine() {
+    return scanner.nextLine().trim();
   }
 }

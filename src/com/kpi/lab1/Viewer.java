@@ -1,9 +1,12 @@
 package com.kpi.lab1;
 
-public class Viewer {
-  static final String FORMAT_20 = "%20s";
-  static final String FORMAT_6 = "%6s";
-  static final String FORMAT_2 = "%2s";
+public final class Viewer {
+  static final String FORMAT_20 = "%20s|";
+  static final String FORMAT_6 = "%6s|";
+  static final String FORMAT_2 = "%2s|";
+
+  private static final String LINE = "------------------------------" +
+    "---------------------------------------------------------";
 
   private static final String HEADER = String.format(FORMAT_2, "Id")
     + String.format(FORMAT_20, "Title")
@@ -15,7 +18,8 @@ public class Viewer {
 
   static void println(Book[] books) {
     System.out.println(HEADER);
-    for (Book book : books) {
+    System.out.println(LINE);
+    for (var book : books) {
       System.out.println(book);
     }
   }
@@ -25,7 +29,7 @@ public class Viewer {
   }
 
   static void noFormat() {
-    System.out.println("Illegal format. Please try again.");
+    System.out.println("Illegal number format. Please try again.");
   }
 
   static void noOption() {

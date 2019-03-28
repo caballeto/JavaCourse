@@ -1,8 +1,8 @@
 package com.kpi.lab1;
 
-public class Datasource {
+public final class Datasource {
   static Book[] data() {
-    return new Book[]{
+    return new Book[] {
       new Book(0, "Lord of the Rings", "Tolkien", "Allen & Unwin", 1954, 820, 25),
       new Book(1, "Second World War", "Winston Churchill", "Bantnam", 1946, 3000, 90),
       new Book(2, "Quo Vadis", "Henryk Sienkiewicz", "Poland press", 1895, 555, 40),
