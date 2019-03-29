@@ -36,6 +36,10 @@ public final class Viewer {
     System.out.println("Incorrect file formatting. Please see reference data file for correct format.");
   }
 
+  static void noUppercase() {
+    System.out.println("The author/publisher should start with uppercase letter.");
+  }
+
   static void noFile() {
     System.out.println("Data file wasn't found.");
   }

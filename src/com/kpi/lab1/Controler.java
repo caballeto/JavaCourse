@@ -35,8 +35,10 @@ public final class Controler implements Runnable {
       try {
         Validator.validateOption(option);
         execute(option);
-      } catch (OptionOutOfRange e) {
+      } catch (OptionOutOfRangeException e) {
         Viewer.noOption();
+      } catch (NotUppercaseException e) {
+        Viewer.noUppercase();
       }
     }
   }
@@ -45,7 +47,7 @@ public final class Controler implements Runnable {
     switch (query) {
       case 0: {
         Viewer.insert("author");
-        Book[] books = Model.getByAuthor(data, readLine());
+        Book[] books = Model.getByAuthor(data, Validator.validateEntry(readLine()));
         if (books.length == 0) {
           Viewer.noAuthor();
         } else {
@@ -57,7 +59,7 @@ public final class Controler implements Runnable {
       }
       case 1: {
         Viewer.insert("publisher");
-        Book[] books = Model.getByPublisher(data, readLine());
+        Book[] books = Model.getByPublisher(data, Validator.validateEntry(readLine()));
         if (books.length == 0) {
           Viewer.noPublisher();
         } else {
