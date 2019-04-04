@@ -1,8 +1,8 @@
-package com.kpi.lab1;
+package com.kpi.lab1.representation;
 
-import static com.kpi.lab1.Viewer.FORMAT_2;
-import static com.kpi.lab1.Viewer.FORMAT_6;
-import static com.kpi.lab1.Viewer.FORMAT_20;
+import static com.kpi.lab1.core.Viewer.FORMAT_2;
+import static com.kpi.lab1.core.Viewer.FORMAT_6;
+import static com.kpi.lab1.core.Viewer.FORMAT_20;
 
 public final class Book {
   private final int id;

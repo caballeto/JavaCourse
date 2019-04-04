@@ -1,4 +1,4 @@
-10
+11
 0,Lord of the Rings,Tolkien,Allen & Unwin,1954,820,25
 1,Second World War,Winston Churchill,Bantnam,1946,3000,90
 2,Quo Vadis,Henryk Sienkiewicz,Poland press,1895,555,40
@@ -9,3 +9,4 @@
 7,Memoirs,Saharov,Samisdat,1987,920,45
 8,Path to power,Thatcher,London press,1992,870,60
 9,Portrait of courage,Kennedy,Harvard press,1958,325,37
+10,Courage,Kennedy,Congress,1958,320,50

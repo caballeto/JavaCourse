@@ -1,4 +1,4 @@
-package com.kpi.lab1;
+package com.kpi.lab1.exceptions;
 
 public class OptionOutOfRangeException extends RuntimeException {
   public OptionOutOfRangeException() {

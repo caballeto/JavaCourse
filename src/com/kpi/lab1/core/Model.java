@@ -1,4 +1,6 @@
-package com.kpi.lab1;
+package com.kpi.lab1.core;
+
+import com.kpi.lab1.representation.Book;
 
 public final class Model {
   public static Book[] getByAuthor(Book[] books, String author) {

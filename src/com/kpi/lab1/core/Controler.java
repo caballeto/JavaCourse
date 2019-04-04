@@ -1,4 +1,10 @@
-package com.kpi.lab1;
+package com.kpi.lab1.core;
+
+import com.kpi.lab1.exceptions.InvalidEntryException;
+import com.kpi.lab1.exceptions.NotUppercaseException;
+import com.kpi.lab1.exceptions.OptionOutOfRangeException;
+import com.kpi.lab1.representation.Book;
+import com.kpi.lab1.representation.Datasource;
 
 import java.util.Scanner;
 
@@ -27,7 +33,7 @@ public final class Controler implements Runnable {
         continue;
       }
 
-      if (option == 3) {
+      if (option == 4) {
         Datasource.save();
         break;
       }
@@ -39,6 +45,9 @@ public final class Controler implements Runnable {
         Viewer.noOption();
       } catch (NotUppercaseException e) {
         Viewer.noUppercase();
+      } catch (InvalidEntryException e)  {
+        Viewer.noEntryFormat();
+        System.out.println(e.getMessage());
       }
     }
   }
@@ -47,7 +56,7 @@ public final class Controler implements Runnable {
     switch (query) {
       case 0: {
         Viewer.insert("author");
-        Book[] books = Model.getByAuthor(data, Validator.validateEntry(readLine()));
+        Book[] books = Model.getByAuthor(data, Validator.validateQuery(readLine()));
         if (books.length == 0) {
           Viewer.noAuthor();
         } else {
@@ -59,7 +68,7 @@ public final class Controler implements Runnable {
       }
       case 1: {
         Viewer.insert("publisher");
-        Book[] books = Model.getByPublisher(data, Validator.validateEntry(readLine()));
+        Book[] books = Model.getByPublisher(data, Validator.validateQuery(readLine()));
         if (books.length == 0) {
           Viewer.noPublisher();
         } else {
@@ -89,6 +98,11 @@ public final class Controler implements Runnable {
         }
 
         break;
+      }
+      case 3: {
+        Viewer.insertEntry();
+        Datasource.addEntry(readLine());
+        data = Datasource.data();
       }
     }
   }
