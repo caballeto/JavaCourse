@@ -1,32 +1,29 @@
 package com.kpi.lab2;
 
-import java.util.HashSet;
 import java.util.List;
 
 public class Controler implements Runnable {
-  private HashSet<Point> data;
-  private double a, b, c;
+  private Model model;
 
   public Controler() {
     Datasource source = new Datasource();
-    this.data = source.data();
-    this.a = source.a();
-    this.b = source.b();
-    this.c = source.c();
+    double a = source.a();
+    double b = source.b();
+    double c = source.c();
+    this.model = new Model(source.data(), a, b, c);
   }
 
   @Override
   public void run() {
-    if (data == null) return;
-    Viewer.header(a, b, c);
-    Viewer.println(data);
+    Viewer.header(model.a(), model.b(), model.c());
+    Viewer.println(model.data());
 
-    List<Point> pclosest = Model.closest(data, a, b, c);
+    List<Point> closest = model.closest();
     Viewer.closest();
-    Viewer.println(pclosest, a, b, c);
+    Viewer.println(closest, model.a(), model.b(), model.c());
 
-    List<Point> pfurthest = Model.furthest(data, a, b, c);
+    List<Point> furthest = model.furthest();
     Viewer.furthest();
-    Viewer.println(pfurthest, a, b, c);
+    Viewer.println(furthest, model.a(), model.b(), model.c());
   }
 }

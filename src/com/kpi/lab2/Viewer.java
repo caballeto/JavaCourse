@@ -1,7 +1,5 @@
 package com.kpi.lab2;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.List;
 import java.util.Set;
 
@@ -11,11 +9,11 @@ public class Viewer {
     System.out.println("Generated set of points:");
   }
 
-  static void println(@NotNull Set<Point> points) {
+  static void println(Set<Point> points) {
     points.forEach(System.out::println);
   }
 
-  static void println(@NotNull List<Point> points, double a, double b, double c) {
+  static void println(List<Point> points, double a, double b, double c) {
     for (var point : points) {
       System.out.println(point + " " + Model.distance(point, a, b, c));
     }

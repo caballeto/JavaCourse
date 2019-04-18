@@ -6,35 +6,32 @@ import com.kpi.lab1.exceptions.OptionOutOfRangeException;
 import com.kpi.lab1.representation.Book;
 import com.kpi.lab1.representation.Datasource;
 
-import java.util.Scanner;
-
 public final class Controler implements Runnable {
-  private Scanner scanner;
-  private Book[] data;
+  private Model model;
+  private Reader reader;
 
   public Controler() {
-    this.scanner = new Scanner(System.in);
-    this.data = Datasource.data();
+    this.reader = new Reader();
+    this.model = new Model(Datasource.data());
   }
 
   @Override
   public void run() {
-    if (data == null) return;
-
-    Viewer.println(data);
+    if (model.data() == null) return;
+    Viewer.println(model.data());
     int option;
     while (true) {
       Viewer.choice();
 
       try {
-        option = Integer.parseInt(readLine());
+        option = Integer.parseInt(reader.readLine());
       } catch (NumberFormatException e) {
         Viewer.noFormat();
         continue;
       }
 
       if (option == 4) {
-        Datasource.save();
+        Datasource.save(model.data());
         break;
       }
 
@@ -56,7 +53,7 @@ public final class Controler implements Runnable {
     switch (query) {
       case 0: {
         Viewer.insert("author");
-        Book[] books = Model.getByAuthor(data, Validator.validateQuery(readLine()));
+        Book[] books = model.getByAuthor(Validator.validateQuery(reader.readLine()));
         if (books.length == 0) {
           Viewer.noAuthor();
         } else {
@@ -68,7 +65,7 @@ public final class Controler implements Runnable {
       }
       case 1: {
         Viewer.insert("publisher");
-        Book[] books = Model.getByPublisher(data, Validator.validateQuery(readLine()));
+        Book[] books = model.getByPublisher(Validator.validateQuery(reader.readLine()));
         if (books.length == 0) {
           Viewer.noPublisher();
         } else {
@@ -83,13 +80,13 @@ public final class Controler implements Runnable {
         int year;
 
         try {
-          year = Integer.parseInt(readLine());
+          year = Integer.parseInt(reader.readLine());
         } catch (NumberFormatException e) {
           Viewer.noFormat();
           return;
         }
 
-        Book[] books = Model.getByYearMoreThan(data, year);
+        Book[] books = model.getByYearMoreThan(year);
         if (books.length == 0) {
           Viewer.noYear();
         } else {
@@ -101,13 +98,8 @@ public final class Controler implements Runnable {
       }
       case 3: {
         Viewer.insertEntry();
-        Datasource.addEntry(readLine());
-        data = Datasource.data();
+        model.addEntry(reader.readLine());
       }
     }
-  }
-
-  private String readLine() {
-    return scanner.nextLine().trim();
   }
 }

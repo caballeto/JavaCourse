@@ -26,19 +26,19 @@ public class Datasource {
     return Math.random() * (MAX - MIN + 1) + MIN;
   }
 
-  HashSet<Point> data() {
+  public HashSet<Point> data() {
     return data;
   }
 
-  double a() {
+  public double a() {
     return a;
   }
 
-  double b() {
+  public double b() {
     return b;
   }
 
-  double c() {
+  public double c() {
     return c;
   }
 }
