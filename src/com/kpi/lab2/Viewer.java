@@ -9,6 +9,10 @@ public class Viewer {
     System.out.println("Generated set of points:");
   }
 
+  static void start() {
+    System.out.println("Computing closest and furthest points.");
+  }
+
   static void println(Set<Point> points) {
     points.forEach(System.out::println);
   }
@@ -21,11 +25,11 @@ public class Viewer {
 
   static void closest() {
     System.out.println();
-    System.out.println("Top closest points:");
+    System.out.println("Top closest points:\n");
   }
 
   static void furthest() {
     System.out.println();
-    System.out.println("Top furthest points:");
+    System.out.println("Top furthest points:\n");
   }
 }

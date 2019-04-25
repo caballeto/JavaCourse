@@ -16,7 +16,12 @@ public class Controler implements Runnable {
   @Override
   public void run() {
     Viewer.header(model.a(), model.b(), model.c());
+    System.out.println();
+
     Viewer.println(model.data());
+
+    System.out.println();
+    Viewer.start();
 
     List<Point> closest = model.closest();
     Viewer.closest();
@@ -25,5 +30,9 @@ public class Controler implements Runnable {
     List<Point> furthest = model.furthest();
     Viewer.furthest();
     Viewer.println(furthest, model.a(), model.b(), model.c());
+
+    System.out.println();
+    System.out.println("Min: " + model.min());
+    System.out.println("Max: " + model.max());
   }
 }

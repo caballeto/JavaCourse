@@ -1,0 +1,41 @@
+[INFO ] 2019-04-25 16:29:18.583 [main] Datasource - Retrieving data from data source.
+[DEBUG] 2019-04-25 16:29:18.588 [main] Datasource - Reading file: books.txt.
+[DEBUG] 2019-04-25 16:29:18.597 [main] Datasource - Read file successfully. Number of entries: 14.
+[DEBUG] 2019-04-25 16:29:18.597 [main] Model - Instantiating model.
+[INFO ] 2019-04-25 16:29:18.598 [main] Controler - Starting controler.
+[INFO ] 2019-04-25 16:29:18.690 [main] Controler - Waiting for option to process.
+[DEBUG] 2019-04-25 16:29:18.693 [main] Reader - Reading line.
+[DEBUG] 2019-04-25 16:29:22.711 [main] Controler - Processing query: 0.
+[DEBUG] 2019-04-25 16:29:22.712 [main] Controler - Validating option.
+[DEBUG] 2019-04-25 16:29:22.719 [main] Validator - Validating option range: 0.
+[INFO ] 2019-04-25 16:29:22.719 [main] Controler - Executing option 'Get books by author'.
+[DEBUG] 2019-04-25 16:29:22.721 [main] Reader - Reading line.
+[DEBUG] 2019-04-25 16:29:25.788 [main] Validator - Validating first uppercase letter: Tolkien.
+[INFO ] 2019-04-25 16:29:25.789 [main] Model - Getting books by author: Tolkien.
+[DEBUG] 2019-04-25 16:29:25.790 [main] Model - Selected 2 books.
+[INFO ] 2019-04-25 16:29:25.791 [main] Controler - Waiting for option to process.
+[DEBUG] 2019-04-25 16:29:25.791 [main] Reader - Reading line.
+[DEBUG] 2019-04-25 16:29:30.928 [main] Controler - Processing query: 2.
+[DEBUG] 2019-04-25 16:29:30.928 [main] Controler - Validating option.
+[DEBUG] 2019-04-25 16:29:30.929 [main] Validator - Validating option range: 2.
+[INFO ] 2019-04-25 16:29:30.929 [main] Controler - Executing option 'Get books published after given year'.
+[DEBUG] 2019-04-25 16:29:30.930 [main] Controler - Reading and validating year.
+[DEBUG] 2019-04-25 16:29:30.930 [main] Reader - Reading line.
+[INFO ] 2019-04-25 16:29:37.596 [main] Model - Getting books published after year: 20123.
+[DEBUG] 2019-04-25 16:29:37.599 [main] Model - Selected 0 books.
+[INFO ] 2019-04-25 16:29:37.600 [main] Controler - Waiting for option to process.
+[DEBUG] 2019-04-25 16:29:37.601 [main] Reader - Reading line.
+[DEBUG] 2019-04-25 16:29:46.652 [main] Controler - Processing query: 1.
+[DEBUG] 2019-04-25 16:29:46.652 [main] Controler - Validating option.
+[DEBUG] 2019-04-25 16:29:46.653 [main] Validator - Validating option range: 1.
+[INFO ] 2019-04-25 16:29:46.653 [main] Controler - Executing option 'Get books by publisher'.
+[DEBUG] 2019-04-25 16:29:46.654 [main] Reader - Reading line.
+[DEBUG] 2019-04-25 16:29:48.809 [main] Validator - Validating first uppercase letter: asda9sd.
+[ERROR] 2019-04-25 16:29:48.810 [main] Controler - First letter is not uppercase.
+[INFO ] 2019-04-25 16:29:48.810 [main] Controler - Waiting for option to process.
+[DEBUG] 2019-04-25 16:29:48.812 [main] Reader - Reading line.
+[DEBUG] 2019-04-25 16:30:13.573 [main] Controler - Processing query: 4.
+[DEBUG] 2019-04-25 16:30:13.574 [main] Controler - Trying to save data.
+[INFO ] 2019-04-25 16:30:13.575 [main] Datasource - Trying to save data.
+[DEBUG] 2019-04-25 16:30:13.577 [main] Datasource - Saving data to 'books.txt'.
+[INFO ] 2019-04-25 16:30:13.627 [main] Controler - Exiting controler.

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b598d0f-35d9-49f7-8d53-fc43f4df2eda" name="Default Changelist" comment="" />
+    <list default="true" id="3b598d0f-35d9-49f7-8d53-fc43f4df2eda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Controler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Datasource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-labs/com/kpi/lab1/Viewer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab1/core/Controler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab1/core/Controler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab1/core/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab1/core/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab1/core/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab1/core/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab1/core/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab1/core/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab1/representation/Datasource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab1/representation/Datasource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab2/Controler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab2/Controler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab2/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab2/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab2/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kpi/lab2/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kpi/lab2/Viewer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,85 +29,107 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5522174">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Datasource.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Viewer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#654#655#0" expanded="true" />
-                    <element signature="e#706#707#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Runner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="731">
-                  <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#1661#1662#0" expanded="true" />
-                    <element signature="e#1703#1704#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#84#85#0" expanded="true" />
-                    <element signature="e#115#116#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Controler.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Book.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Controler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/representation/Datasource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Viewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/log4j2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/representation/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,23 +142,59 @@
     <findStrings>
       <find>printf</find>
       <find>format</find>
+      <find>Opt</find>
+      <find>equals</find>
+      <find>containsKey</find>
+      <find>Compa</find>
+      <find>conve</find>
+      <find>saving</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/labs/lab1/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Main.java" />
         <option value="$PROJECT_DIR$/src/com/labs/Worker.java" />
         <option value="$PROJECT_DIR$/src/com/kpi/lab1/InputControler.java" />
-        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Viewer.java" />
-        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Controler.java" />
-        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Datasource.java" />
         <option value="$PROJECT_DIR$/src/com/kpi/lab1/Runner.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Computer.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Model.java" />
+        <option value="$PROJECT_DIR$/src/books.csv" />
+        <option value="$PROJECT_DIR$/src/books.txt" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Datasource.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/OptionOutOfRange.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/OptionOutOfRangeException.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/NotUppercaseException.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Controler.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Validator.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/exceptions/InvalidEntryException.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/exceptions/NotUppercaseException.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/core/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab2/Datasource.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab2/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab2/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab2/Controler.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab2/Model.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab2/Point.java" />
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/com/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/log4j2.properties" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/core/Validator.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/core/Reader.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/representation/Datasource.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/core/Model.java" />
+        <option value="$PROJECT_DIR$/src/com/kpi/lab1/core/Controler.java" />
+        <option value="$PROJECT_DIR$/logs/log.txt" />
       </list>
     </option>
   </component>
@@ -127,11 +204,14 @@
     <option name="width" value="1390" />
     <option name="height" value="999" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +222,11 @@
             <path>
               <item name="java-labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-labs" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -155,22 +240,64 @@
               <item name="java-labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kpi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kpi" type="462c0819:PsiDirectoryNode" />
               <item name="lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kpi" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kpi" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="representation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551474059793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556199159913" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java-logging/apache-log4j-2.11.2-bin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/com" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Handler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.labs.Handler" />
       <module name="java-labs" />
@@ -199,6 +326,19 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kpi.lab2.Main" />
+      <module name="java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kpi.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kpi.lab1.Main" />
       <module name="java-labs" />
       <extension name="coverage">
@@ -224,11 +364,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kpi.lab1.Main" />
+      <module name="java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kpi.lab1.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kpi.lab1.Main" />
+      <module name="java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kpi.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kpi.lab1.Main" />
+      <module name="java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kpi.lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Handler" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -243,12 +424,31 @@
       <option name="presentableId" value="Default" />
       <updated>1551463117918</updated>
       <workItem from="1551463119553" duration="10940000" />
-      <workItem from="1551512219519" duration="1149000" />
+      <workItem from="1551512219519" duration="2033000" />
+      <workItem from="1551612131204" duration="602000" />
+      <workItem from="1552631857528" duration="2677000" />
+      <workItem from="1552941565101" duration="7000" />
+      <workItem from="1553169975973" duration="452000" />
+      <workItem from="1553761179257" duration="12046000" />
+      <workItem from="1553780887810" duration="33000" />
+      <workItem from="1553841499170" duration="2649000" />
+      <workItem from="1553890564024" duration="280000" />
+      <workItem from="1554399407764" duration="6563000" />
+      <workItem from="1554442253943" duration="5417000" />
+      <workItem from="1554554148070" duration="25000" />
+      <workItem from="1555569143358" duration="5084000" />
+      <workItem from="1555574452107" duration="77000" />
+      <workItem from="1555578396801" duration="17000" />
+      <workItem from="1555589433998" duration="9000" />
+      <workItem from="1555651497047" duration="2467000" />
+      <workItem from="1555654073838" duration="720000" />
+      <workItem from="1555688162537" duration="19000" />
+      <workItem from="1556192048553" duration="7108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12089000" />
+    <option name="totallyTimeSpent" value="59225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1922" height="1057" extended-state="6" />
@@ -259,21 +459,26 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25320512" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2056624" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.5404531" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32975295" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32975295" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.22222222" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32901832" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="bottom" id="Console" order="14" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -284,103 +489,322 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32975295" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32975295" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/labs.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Lab1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/exceptions/NotUppercaseException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Faculty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faculties.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/exceptions/InvalidEntryException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Handler.java">
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="7045">
+          <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/labs/Worker.java">
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/LinkedHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="68" />
+        <state relative-caret-position="181">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Main.java">
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/OutputStreamWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="205">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/FileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="145" column="24" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+          <folding>
+            <element signature="e#4990#4991#0" expanded="true" />
+            <element signature="e#5036#5037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3254">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="4683" column="32" selection-start-line="4683" selection-start-column="32" selection-end-line="4683" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="772" column="43" lean-forward="true" selection-start-line="772" selection-start-column="43" selection-end-line="772" selection-end-column="43" />
+          <folding>
+            <element signature="e#22317#22318#0" expanded="true" />
+            <element signature="e#22348#22349#0" expanded="true" />
+            <element signature="e#28843#28844#0" expanded="true" />
+            <element signature="e#28888#28889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="809" column="29" selection-start-line="809" selection-start-column="29" selection-end-line="809" selection-end-column="29" />
+          <folding>
+            <element signature="e#25237#25238#0" expanded="true" />
+            <element signature="e#25281#25282#0" expanded="true" />
+            <element signature="e#25570#25571#0" expanded="true" />
+            <element signature="e#25614#25615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="226" column="27" selection-start-line="226" selection-start-column="23" selection-end-line="226" selection-end-column="27" />
+          <folding>
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#4123#4124#0" expanded="true" />
+            <element signature="e#4151#4152#0" expanded="true" />
+            <element signature="e#4910#4911#0" expanded="true" />
+            <element signature="e#4951#4952#0" expanded="true" />
+            <element signature="e#6712#6713#0" expanded="true" />
+            <element signature="e#6758#6759#0" expanded="true" />
+            <element signature="e#7055#7056#0" expanded="true" />
+            <element signature="e#7097#7098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Short.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="426" column="25" selection-start-line="426" selection-start-column="20" selection-end-line="426" selection-end-column="25" />
+          <folding>
+            <element signature="e#14553#14554#0" expanded="true" />
+            <element signature="e#14597#14598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Byte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="408" column="15" selection-start-line="408" selection-start-column="15" selection-end-line="408" selection-end-column="15" />
+          <folding>
+            <element signature="e#14284#14285#0" expanded="true" />
+            <element signature="e#14327#14328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1291">
+          <caret line="1402" column="5" lean-forward="true" selection-start-line="1402" selection-start-column="5" selection-end-line="1402" selection-end-column="5" />
+          <folding>
+            <element signature="e#55233#55234#0" expanded="true" />
+            <element signature="e#55276#55277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="553" lean-forward="true" selection-start-line="553" selection-end-line="553" />
+          <folding>
+            <element signature="e#27766#27809#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="158" column="15" lean-forward="true" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="99" column="61" lean-forward="true" selection-start-line="99" selection-start-column="61" selection-end-line="100" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="137" column="11" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="134" column="13" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab2/Controler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab2/Datasource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab2/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab2/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab2/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#115#116#0" expanded="true" />
@@ -388,58 +812,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Controler.java">
+    <entry file="jar://$USER_HOME$/java-logging/apache-log4j-2.11.2-bin/log4j-1.2-api-2.11.2.jar!/org/apache/log4j/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Book.java">
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-backup-04-25-19-15-10-29-1.log.gz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug-backup-04-25-19-15-12-28-1.log.gz">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Viewer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="221">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Runner.java">
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="273">
+          <caret line="73" column="7" lean-forward="true" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="371" column="18" selection-start-line="371" selection-start-column="18" selection-end-line="371" selection-end-column="18" />
           <folding>
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#12846#12847#0" expanded="true" />
+            <element signature="e#12877#12878#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/Datasource.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/representation/Datasource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="735">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/representation/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kpi/lab1/core/Controler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java-labs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
