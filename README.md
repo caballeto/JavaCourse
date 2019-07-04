@@ -1,2 +1,2 @@
 # JavaCourse
-Java labs for course 'Modern programming technologies'
+Homeworks for course 'Modern programming technologies'
